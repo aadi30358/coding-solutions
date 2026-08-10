@@ -4,33 +4,49 @@
 
 ## Problem
 
-### byte in Java
+### Temperature Sensor Readings
 
-What will be the output of the following Java program?
+Temperature sensors measure and store readings using the `byte` data type, which is ideal for small integer values. In this task, you will declare two variables to store temperature readings from a hot and cold region, ensuring they remain within the valid byte range (-128 to 127).
+
+ **Steps of Complete** 
+
+- Declare a variable named hotRegionTemp and assign a positive temperature 45.
+- Declare another variable named coldRegionTemp and assign a negative temperature -20.
+- Print both temperature readings to verify they are stored correctly.
+
+Run your code to see the correct output. Click "Submit" when you're ready!
+
+ **Expected Output** 
 
 ```
-class Codechef {
-    public static void main(String[] args) {
-        byte maxByte = 127;
-        byte minByte = -128;
-        System.out.println("Max: " + maxByte + ", Min: " + minByte);
-    }
-}
+Hot Region Temperature: 45  
+Cold Region Temperature: -20  
 
 ```
+
+Feel free to modify the temperatures to explore different sensor readings!
 
 ## Solution
 
-**Language:** C++  
+**Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-10T05:00:44.612Z  
+**Submitted:** 2026-08-10T05:03:54.944Z  
 
-```cpp
+```java
 class Codechef {
     public static void main(String[] args) {
-        byte smallNumber = 100; // Declare and assign a byte variable
-        System.out.println("The byte value is: " + smallNumber); // Print the variable
+        //  Declare and assign temperature readings
+        byte htr = 45;
+        byte crt = -20;
+
+
+
+        //  Print the temperature readings
+        System.out.println("Hot Region Temperature:" + htr);
+        System.out.println("Cold Region Temperature:" + crt);
+
+
     }
 }
 
