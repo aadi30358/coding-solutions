@@ -20,19 +20,17 @@ Total Signals Received: 9876543210
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-16T12:26:10.201Z  
+**Submitted:** 2026-08-16T12:29:13.365Z  
 
 ```java
 class Codechef {
     public static void main(String[] args) {
-        // Declare and assign a large number using long
-        long totalSignalsReceived = 9_876_543_210L;  // Total signals from space missions
-
-        // Print the stored value
+        
+        long totalSignalsReceived = 9876543210L;
+        
         System.out.println("Total Signals Received: " + totalSignalsReceived);
     }
 }
-
 ```
 
 ---
