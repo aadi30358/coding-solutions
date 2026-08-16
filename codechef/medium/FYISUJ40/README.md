@@ -4,35 +4,52 @@
 
 ## Problem
 
-### Fill in the Blank MCQ - Using char in Java
+### Astronaut Mission Data Tracker
 
-In this task, you need to assign a valid `char` value to represent the selected symbol. Complete the following code:
+Space agencies track astronaut missions, including mission codes, crew size, and total distance traveled. Use  **`char`**  for mission identifiers,  **`short`**  for crew size, and  **`long`**  for total space distance covered.
 
-```
-class Codechef {
-    public static void main(String[] args) {
-        char symbol = __ ; // Assign a valid char value
-        System.out.println("Selected Symbol: " + symbol);
-    }
-}
+ **Expected Output:** 
 
 ```
+Mission Code: A  
+Crew Size: 7  
+Distance Traveled: 3000000000 km  
+
+```
+
+Run the code, modify values, and explore different mission details!
 
 ## Solution
 
-**Language:** C++  
+**Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-16T13:12:18.292Z  
+**Submitted:** 2026-08-16T13:15:43.449Z  
 
-```cpp
+```java
 class Codechef {
     public static void main(String[] args) {
-        char grade = 'A';
+        // Declare and assign mission details
         
-        System.out.println("Student Grade: " + grade);
+        
+        char code = 'A';
+        float size = 7f;
+        long travel = 30000;
+        
+        System.out.println("Mission Code: " + code);
+        System.out.println("Crew Size: " + size);
+        System.out.println("Distance Traveled: " + travel + "km");
+
+
+
+
+        // Print the mission data
+
+
+
     }
 }
+
 ```
 
 ---
