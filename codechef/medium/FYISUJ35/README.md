@@ -4,38 +4,37 @@
 
 ## Problem
 
-### double in Java
+### Weather Station Data Tracker
 
-What will be the output of the following Java program?
+Weather stations monitor  **temperature and rainfall**  to analyze climate patterns. Use  **`float`**  for temperature values with decimals and  **`double`**  for precise rainfall measurements.
 
-```
-class Codechef {
-    public static void main(String[] args) {
-        double price = 99.99;
-        System.out.println("Price: " + price);
-    }
-}
+ **Expected Output:** 
 
 ```
+Temperature: 28.3 °C  
+Rainfall Level: 125.6789 mm  
+
+```
+
+Run the code, modify values, and observe different weather conditions!
 
 ## Solution
 
-**Language:** C++  
+**Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-16T13:02:40.688Z  
+**Submitted:** 2026-08-16T13:08:20.819Z  
 
-```cpp
+```java
 class Codechef {
     public static void main(String[] args) {
-        //  Declare and assign precise gravitational acceleration value
-        double gravityAcceleration = 9.80665;  // Earth's gravity in m/s² with high precision
-
-        //  Print the value
-        System.out.println("Gravitational Acceleration: " + gravityAcceleration + " m/(s*s)");
+        double temp = 28.3;
+        double level = 125.6789;
+        
+        System.out.println("Temperature: " + temp + "°C");
+        System.out.println("Rainfall Level: " + level + "mm");
     }
 }
-
 ```
 
 ---
