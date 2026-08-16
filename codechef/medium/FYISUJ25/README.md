@@ -4,24 +4,40 @@
 
 ## Problem
 
-_Description not available._
+### Global Financial Transactions Tracker
+
+Banks process billions of transactions daily, storing large transaction IDs and branch codes for tracking.
+Use  **`long`**  for  **transaction IDs**  due to their size and  **`short`**  for  **branch codes**  as they are smaller values.
+
+```
+transactionID = 5_123_456_789_000L;  
+branchCode = 3052;  
+
+```
+
+ **Expected Output:** 
+
+```
+Transaction ID: 5123456789000  
+Branch Code: 3052  
+
+```
 
 ## Solution
 
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-16T12:33:55.255Z  
+**Submitted:** 2026-08-16T12:37:01.437Z  
 
 ```java
 class Codechef {
     public static void main(String[] args) {
+        long transactionID = 5789000;
+        long branchCode = 3052;
         
-    long speedOfLight = 299792458;
-    long secondsInYear = 31536000;
-    
-    System.out.println("Speed of Light: " + speedOfLight + " m/s");
-    System.out.println("Seconds in a Year: " + secondsInYear);
+        System.out.println("Transaction ID: " + transactionID);
+        System.out.println("Branch Code: " + branchCode);
     }
 }
 ```
