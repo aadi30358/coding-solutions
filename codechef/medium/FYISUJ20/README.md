@@ -4,37 +4,53 @@
 
 ## Problem
 
-### Fill in the Blank MCQ - Using int in Java
+### Population Growth Tracker
 
-In this task, you need to assign a valid `int` value to represent the car's speed. Complete the following code:
+Write a program to  **track city and district populations**  to analyze demographic changes.
+Use  **`int` for city populations**  (large values) and  **`short` for district populations**  (smaller values).
+
+ **Given Variables:** 
 
 ```
-class Codechef {
-    public static void main(String[] args) {
-        int speed = __ ; // Assign a valid int value
-        System.out.println("Car Speed: " + speed);
-    }
-}
+cityPopulation = 5_000_000;  
+districtPopulation = 25_000;  
+
+```
+
+ **Expected Output:** 
+If stored and printed correctly, your output should look something like:
+
+```
+City Population: 5000000  
+District Population: 25000  
 
 ```
 
 ## Solution
 
-**Language:** C++  
+**Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-16T12:18:50.579Z  
+**Submitted:** 2026-08-16T12:21:32.325Z  
 
-```cpp
+```java
 class Codechef {
     public static void main(String[] args) {
-        // Declare and assign an int variable
-        int population = 1_500_000; 
+        // Declare and assign population values
+        int cityPopulation = 5_000_000;
+        int districtPopulation = 25_000;
         
-        // Print the value of the variable
-        System.out.println("City Population: " + population);
+        System.out.println("City Population:" + cityPopulation);
+        System.out.println("District Population:" + districtPopulation);
+
+
+
+        // Print the population values
+
+
     }
 }
+
 ```
 
 ---
