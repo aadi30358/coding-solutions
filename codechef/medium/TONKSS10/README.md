@@ -27,7 +27,7 @@ Run the code, modify values, and explore different city distances and journey st
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-16T13:57:13.039Z  
+**Submitted:** 2026-08-16T13:58:25.410Z  
 
 ```java
 class Codechef {
