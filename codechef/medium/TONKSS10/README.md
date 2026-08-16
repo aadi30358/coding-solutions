@@ -4,37 +4,41 @@
 
 ## Problem
 
-### Output of ImplicitConversion
+### Distance & Travel Status Tracker
 
-What will be the output of the following Java program?
+A transportation department monitors city-to-city distances and journey status.
+Use  **`long`**  for distance and observe Java's  **implicit conversion**  to  **`double`**  for precision.
+Additionally, a  **`boolean`**  variable tracks whether the journey is active (`true`) or completed (`false`).
 
-```
-class Codechef {
-    public static void main(String[] args) {
-        float num = 15; // Implicit conversion from int to float
-        double result = num; // Implicit conversion from float to double
-
-        System.out.println("Result: " + result);
-    }
-}
+ **Expected Output:** 
+If stored and printed correctly, your output should look something like:
 
 ```
+Distance in Long: 450 km  
+Converted Distance in Double: 450.0 km  
+Is Journey Active: true  
+
+```
+
+Run the code, modify values, and explore different city distances and journey statuses!
 
 ## Solution
 
-**Language:** C++  
+**Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-16T13:52:08.048Z  
+**Submitted:** 2026-08-16T13:57:13.039Z  
 
-```cpp
+```java
 class Codechef {
     public static void main(String[] args) {
-        int age = 25;
-        double convertedAge = age;
+        long dist = 450;
+        double convertedDistance = dist;
+        boolean active = true;
         
-        System.out.println("Integer Age: " + age);
-        System.out.println("Converted Age (Double): " + convertedAge);
+        System.out.println("Distance in Long: " + dist);
+        System.out.println("Converted Distance in Double: " + convertedDistance + "km");
+        System.out.println("Is Journey Active: " + active);
     }
 }
 ```
