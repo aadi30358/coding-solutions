@@ -4,28 +4,18 @@
 
 ## Problem
 
-### Fill in the Blank MCQ - Using int in Java
+### Worked Example - Storing and Displaying Population
 
-In this task, you need to assign a valid `int` value to represent the car's speed. Complete the following code:
-
-```
-class Codechef {
-    public static void main(String[] args) {
-        int speed = __ ; // Assign a valid int value
-        System.out.println("Car Speed: " + speed);
-    }
-}
-
-```
+In this example, we demonstrate how to declare an `int` variable, assign a value, and print it in Java. This method provides a simple way to store large integer values efficiently.
 
 ## Solution
 
-**Language:** C++  
+**Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-16T12:18:45.278Z  
+**Submitted:** 2026-08-16T12:18:36.095Z  
 
-```cpp
+```java
 class Codechef {
     public static void main(String[] args) {
         // Declare and assign an int variable
