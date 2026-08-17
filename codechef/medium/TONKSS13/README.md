@@ -22,7 +22,7 @@ Converted Employee ID (Int): 1234567890
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-17T04:08:23.696Z  
+**Submitted:** 2026-08-17T04:08:52.696Z  
 
 ```java
 class Codechef {
@@ -31,7 +31,8 @@ class Codechef {
         
         int convertedId = (int) employeeId;
         
-        System.out.println("Emplo")
+        System.out.println("Employee ID (Long): " + employeeId);
+        System.out.println("")
     }
 }
 ```
