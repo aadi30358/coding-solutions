@@ -4,6 +4,7 @@ class Codechef {
         
         int convertedId = (int) employeeId;
         
-        System.out.println("Emplo")
+        System.out.println("Employee ID (Long): " + employeeId);
+        System.out.println("")
     }
 }
