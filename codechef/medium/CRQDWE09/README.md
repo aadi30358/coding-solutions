@@ -4,26 +4,29 @@
 
 ## Problem
 
-### Performing Subtraction
+### Subtraction Operator in Java
 
-In this example, we demonstrate how to declare integer variables, perform subtraction, and print the result in Java.
-The subtraction operator (`-`) allows us to compute the difference efficiently.
-
- **When executed, the code will show:** 
+What will be the output of the following Java program?
 
 ```
-Difference: 20
+class Codechef {
+    public static void main(String[] args) {
+        int number = 50;
+        number = number - 20 - 10;
+        System.out.println("Result: " + number);
+    }
+}
 
 ```
 
 ## Solution
 
-**Language:** Java  
+**Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-17T14:10:56.670Z  
+**Submitted:** 2026-08-17T14:11:19.941Z  
 
-```java
+```cpp
 class CodeChef {
     public static void main(String[] args) {
         
