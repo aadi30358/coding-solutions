@@ -22,23 +22,18 @@ Converted Employee ID (Int): 1234567890
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-17T04:04:48.694Z  
+**Submitted:** 2026-08-17T04:08:23.696Z  
 
 ```java
 class Codechef {
     public static void main(String[] args) {
-        // Step 1: Declare and assign employee ID as long
-        long employeeID = 1_234_567_890L;  // Employee ID within int range
-
-        // Step 2: Explicitly convert long to int
-        int convertedID = (int) employeeID;  
-
-        // Step 3: Print both values
-        System.out.println("Employee ID (Long): " + employeeID);
-        System.out.println("Converted Employee ID (Int): " + convertedID);
+        long employeeId = 12345;
+        
+        int convertedId = (int) employeeId;
+        
+        System.out.println("Emplo")
     }
 }
-
 ```
 
 ---
