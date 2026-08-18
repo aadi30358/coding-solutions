@@ -4,45 +4,41 @@
 
 ## Problem
 
-### Understanding the Multiplication Operator
+### Fundraising Event Management
 
-What will happen if you run the following Java program?
+You are organizing a fundraising event where each sponsor donates a fixed amount, and extra donations are added separately.
+Calculate the  **total funds**  by multiplying the  **number of sponsors**  by the  **donation per sponsor**  and adding  **extra donations**.
+Print the  **final amount**.
 
-```
-class Codechef {
-    public static void main(String[] args) {
-        int num1 = 5;
-        int num2 = 3;
-        int num3 = 2;
-        int product;
-        
-        product = num1 * num2; 
-
-        System.out.println("Product: " + product);
-    }
-}
+ **Expected Output:** 
 
 ```
+26000  
+
+```
+
+Write the code and click the "Run" button to check your results.
 
 ## Solution
 
-**Language:** C++  
+**Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-17T14:18:03.427Z  
+**Submitted:** 2026-08-18T02:00:59.922Z  
 
-```cpp
+```java
 class Codechef {
     public static void main(String[] args) {
-        // Declare and initialize two integer variables
-        int num1 = 6;  // First number
-        int num2 = 3;  // Second number
 
-        // Perform multiplication and store the result
-        int product = num1 * num2;
-
-        // Print the product value
-        System.out.println("Multiplication result: " + product);
+         // Given Variables
+        int sponsors = 4, donationPerSponsor = 4500, extraDonations = 8000;
+        
+        int totalFunds = (sponsors * donationPerSponsor) + extraDonations;
+        
+        System.out.println(totalFunds);
+        
+        
+        
     }
 }
 
