@@ -4,29 +4,23 @@
 
 ## Problem
 
-### Mixed Literal Types Display
+### Character Encoding System
 
-In this example, we demonstrate how to print character, string, and boolean literals in Java within a structured program.
-
-The `System.out.println` function is used to display different types of literals on the console.
-
-### Expected Output
+A developer is implementing a character encoding system where each letter should be stored as a single character.
 
 ```
-A  
-John  
-true    
+System.out.println(_____);
 
 ```
 
 ## Solution
 
-**Language:** Java  
+**Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-01T16:52:05.482Z  
+**Submitted:** 2026-09-01T16:52:12.631Z  
 
-```java
+```cpp
 class Codechef {
     public static void main(String[] args) {
         
