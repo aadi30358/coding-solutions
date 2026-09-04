@@ -23,12 +23,12 @@ Run the code, modify values, and observe different weather conditions!
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-04T07:13:28.739Z  
+**Submitted:** 2026-09-04T07:13:48.425Z  
 
 ```java
 class Codechef {
     public static void main(String[] args) {
-        double temp = 28.3;
+        float temp = 28.3F;
         double level = 125.6789;
         
         System.out.println("Temperature: " + temp + "°C");
