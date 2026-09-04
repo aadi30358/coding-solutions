@@ -31,25 +31,18 @@ Feel free to modify the temperatures to explore different sensor readings!
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-10T05:04:09.876Z  
+**Submitted:** 2026-09-04T06:50:35.857Z  
 
 ```java
-class Codechef {
+class codechef {
     public static void main(String[] args) {
-        //  Declare and assign temperature readings
-        byte htr = 45;
+        byte hrt =45;
         byte crt = -20;
-
-
-
-        //  Print the temperature readings
-        System.out.println("Hot Region Temperature:" + htr);
-        System.out.println("Cold Region Temperature:" + crt);
-
-
-    }
+        
+        System.out.println("Hot Region Temperature: " + hrt);
+        System.out.println("Cold Region Temperature: " + crt);
+    } 
 }
-
 ```
 
 ---
