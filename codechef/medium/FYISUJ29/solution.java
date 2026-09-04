@@ -1,10 +1,10 @@
 class Codechef {
     public static void main(String[] args) {
-        float currentRating = 4.7f;
-        float maxRating = 5.0f;
+       float current = 4.7F;
+       float possible = 5.0F;
         
-        System.out.println("Current Video Rating: " + currentRating);
-        System.out.println("Maximum Possible Rating: " + maxRating);
+        System.out.println("Current Video Rating: " + current);
+        System.out.println("Maximum Possible Rating: " + possible);
         
     }
 }
