@@ -20,12 +20,11 @@ Is the light on? true
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-16T13:19:41.409Z  
+**Submitted:** 2026-09-04T07:19:23.540Z  
 
 ```java
 class Codechef {
     public static void main(String[] args) {
-        
         boolean n = true;
         
         System.out.println("Is the light on? " + n);
