@@ -1,6 +1,6 @@
 class Codechef {
     public static void main(String[] args) {
-        double temp = 28.3;
+        float temp = 28.3F;
         double level = 125.6789;
         
         System.out.println("Temperature: " + temp + "°C");
