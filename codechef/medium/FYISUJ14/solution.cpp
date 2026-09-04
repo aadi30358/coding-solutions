@@ -1,9 +1,9 @@
-class Codechef {
+class codechef {
     public static void main(String[] args) {
-        // Declare and assign a short variable
-        short temperature = -150; 
+        byte hrt =45;
+        byte crt = -20;
         
-        // Print the value of the variable
-        System.out.println("Temperature: " + temperature);
-    }
+        System.out.println("Hot Region Temperature: " + hrt);
+        System.out.println("Cold Region Temperature: " + crt);
+    } 
 }
