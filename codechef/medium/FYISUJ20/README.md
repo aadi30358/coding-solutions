@@ -31,17 +31,17 @@ District Population: 25000
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-16T12:21:32.325Z  
+**Submitted:** 2026-09-04T06:54:21.469Z  
 
 ```java
 class Codechef {
     public static void main(String[] args) {
-        // Declare and assign population values
-        int cityPopulation = 5_000_000;
-        int districtPopulation = 25_000;
-        
-        System.out.println("City Population:" + cityPopulation);
-        System.out.println("District Population:" + districtPopulation);
+      
+        int cp = 5_00_000;
+        short dp = 25_000;
+      
+        System.out.println("City Population:" + cp);
+        System.out.println("District Population:" + dp);
 
 
 
