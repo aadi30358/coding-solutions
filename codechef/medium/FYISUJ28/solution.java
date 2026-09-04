@@ -1,7 +1,7 @@
 class Codechef {
     public static void main(String[] args) {
-        float averagaeTemperature = 28.75f;
+        float average = 28.75F;
         
-        System.out.println("Average Temperature: " + averagaeTemperature +"°C");
+        System.out.println("Average Temperature: " + average +"°C");
     }
 }
