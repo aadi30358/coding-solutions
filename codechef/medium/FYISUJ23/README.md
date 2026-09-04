@@ -20,13 +20,13 @@ Total Signals Received: 9876543210
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-16T12:29:13.365Z  
+**Submitted:** 2026-09-04T07:03:31.748Z  
 
 ```java
 class Codechef {
     public static void main(String[] args) {
         
-        long totalSignalsReceived = 9876543210L;
+     long totalSignalsReceived = 9876543210L;
         
         System.out.println("Total Signals Received: " + totalSignalsReceived);
     }
