@@ -24,7 +24,7 @@ Run the code, modify values, and explore different mission details!
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-16T13:15:43.449Z  
+**Submitted:** 2026-09-04T07:17:06.484Z  
 
 ```java
 class Codechef {
@@ -33,12 +33,12 @@ class Codechef {
         
         
         char code = 'A';
-        float size = 7f;
-        long travel = 30000;
-        
+        int size = 7;
+        long distance = 3_000_000_000L;
+
         System.out.println("Mission Code: " + code);
         System.out.println("Crew Size: " + size);
-        System.out.println("Distance Traveled: " + travel + "km");
+        System.out.println("Distance Traveled: " + distance + "km");
 
 
 
