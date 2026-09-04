@@ -1,9 +1,9 @@
 class Codechef {
     public static void main(String[] args) {
-      long transactionID = 5123456789000L;
-      long branchCode = 3052;
-        
-        System.out.println("Transaction ID: " + transactionID);
-        System.out.println("Branch Code: " + branchCode);
+   long speedOfLight = 299792458;
+   long secondsInYear = 31536000;
+    
+    System.out.println("Speed of Light: " + speedOfLight + " m/s");
+    System.out.println("Seconds in a Year: " + secondsInYear);
     }
 }
