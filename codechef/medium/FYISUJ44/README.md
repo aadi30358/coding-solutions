@@ -4,31 +4,18 @@
 
 ## Problem
 
-### Fill in the Blank MCQ - Checking Door Status
-
-In this task, you need to assign a valid `boolean` value to represent the door’s status. Complete the following code:
-
-```
-class Codechef {
-    public static void main(String[] args) {
-        boolean isDoorLocked = __ ; // Assign a valid boolean value
-        System.out.println("Is the door locked? " + isDoorLocked);
-    }
-}
-
-```
+_Description not available._
 
 ## Solution
 
-**Language:** C++  
+**Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-16T13:19:59.051Z  
+**Submitted:** 2026-09-04T07:19:24.465Z  
 
-```cpp
+```java
 class Codechef {
     public static void main(String[] args) {
-        
         boolean n = true;
         
         System.out.println("Is the light on? " + n);
