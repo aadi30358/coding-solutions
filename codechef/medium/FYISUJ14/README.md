@@ -23,19 +23,18 @@ class Codechef {
 **Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-11T02:38:59.647Z  
+**Submitted:** 2026-09-04T06:51:04.660Z  
 
 ```cpp
-class Codechef {
+class codechef {
     public static void main(String[] args) {
-        // Declare and assign a short variable
-        short temperature = -150; 
+        byte hrt =45;
+        byte crt = -20;
         
-        // Print the value of the variable
-        System.out.println("Temperature: " + temperature);
-    }
+        System.out.println("Hot Region Temperature: " + hrt);
+        System.out.println("Cold Region Temperature: " + crt);
+    } 
 }
-
 ```
 
 ---
