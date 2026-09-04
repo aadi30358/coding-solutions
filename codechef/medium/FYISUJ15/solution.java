@@ -1,10 +1,8 @@
 class Codechef {
     public static void main(String[] args) {
-        //  Declare and assign earthquake intensity readings
-        short regionOneIntensity = 12000;
-        short regionTwoIntensity = -5000;
-        byte regionThreeIntensity = 0;
-        
+       short regionOneIntensity = 12000;
+       short regionTwoIntensity = -5000;
+       byte  regionThreeIntensity = 0;
         
         
         System.out.println("Region One Intensity: " + regionOneIntensity);
