@@ -30,16 +30,16 @@ Run the code, modify values, and test different rating scenarios!
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-16T12:44:39.015Z  
+**Submitted:** 2026-09-04T07:11:02.553Z  
 
 ```java
 class Codechef {
     public static void main(String[] args) {
-        float currentRating = 4.7f;
-        float maxRating = 5.0f;
+       float current = 4.7F;
+       float possible = 5.0F;
         
-        System.out.println("Current Video Rating: " + currentRating);
-        System.out.println("Maximum Possible Rating: " + maxRating);
+        System.out.println("Current Video Rating: " + current);
+        System.out.println("Maximum Possible Rating: " + possible);
         
     }
 }
