@@ -27,14 +27,13 @@ Seconds in a Year: 31536000
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-16T12:33:49.091Z  
+**Submitted:** 2026-09-04T07:05:51.562Z  
 
 ```java
 class Codechef {
     public static void main(String[] args) {
-        
-    long speedOfLight = 299792458;
-    long secondsInYear = 31536000;
+   long speedOfLight = 299792458;
+   long secondsInYear = 31536000;
     
     System.out.println("Speed of Light: " + speedOfLight + " m/s");
     System.out.println("Seconds in a Year: " + secondsInYear);
