@@ -23,14 +23,16 @@ class Codechef {
 **Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-16T13:12:17.219Z  
+**Submitted:** 2026-09-04T07:14:40.125Z  
 
 ```cpp
 class Codechef {
     public static void main(String[] args) {
-        char grade = 'A';
+        float temp = 28.3F;
+        double level = 125.6789;
         
-        System.out.println("Student Grade: " + grade);
+        System.out.println("Temperature: " + temp + "°C");
+        System.out.println("Rainfall Level: " + level + "mm");
     }
 }
 ```
