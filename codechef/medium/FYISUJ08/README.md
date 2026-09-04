@@ -13,7 +13,7 @@ In this example, we demonstrate how to declare a `byte` variable, assign a value
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-10T04:59:54.710Z  
+**Submitted:** 2026-09-04T06:47:01.290Z  
 
 ```java
 class Codechef {
