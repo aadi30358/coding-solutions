@@ -34,16 +34,14 @@ Feel free to adjust the intensity values to observe how different earthquake rea
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-11T02:46:13.885Z  
+**Submitted:** 2026-09-04T06:52:38.301Z  
 
 ```java
 class Codechef {
     public static void main(String[] args) {
-        //  Declare and assign earthquake intensity readings
-        short regionOneIntensity = 12000;
-        short regionTwoIntensity = -5000;
-        byte regionThreeIntensity = 0;
-        
+       short regionOneIntensity = 12000;
+       short regionTwoIntensity = -5000;
+       byte  regionThreeIntensity = 0;
         
         
         System.out.println("Region One Intensity: " + regionOneIntensity);
