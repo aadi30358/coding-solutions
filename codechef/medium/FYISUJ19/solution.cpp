@@ -1,9 +1,17 @@
 class Codechef {
     public static void main(String[] args) {
-        // Declare and assign an int variable
-        int population = 1_500_000; 
+       short regionOneIntensity = 12000;
+       short regionTwoIntensity = -5000;
+       byte  regionThreeIntensity = 0;
         
-        // Print the value of the variable
-        System.out.println("City Population: " + population);
+        
+        System.out.println("Region One Intensity: " + regionOneIntensity);
+        System.out.println("Region Two Intensity: " + regionTwoIntensity);
+        System.out.println("Region Three Intensity: " + regionThreeIntensity);
+        
+
+
+
+
     }
 }
