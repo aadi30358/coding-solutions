@@ -20,14 +20,14 @@ Average Temperature: 28.75°C
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-16T12:40:14.335Z  
+**Submitted:** 2026-09-04T07:10:09.767Z  
 
 ```java
 class Codechef {
     public static void main(String[] args) {
-        float averagaeTemperature = 28.75f;
+        float average = 28.75F;
         
-        System.out.println("Average Temperature: " + averagaeTemperature +"°C");
+        System.out.println("Average Temperature: " + average +"°C");
     }
 }
 ```
