@@ -48,9 +48,9 @@ Since an empty string reads the same forward and backward, it is a palindrome.
 ## Solution
 
 **Language:** C  
-**Runtime:** 0 ms (beats 100.00%)  
-**Memory:** 9.2 MB (beats 57.16%)  
-**Submitted:** 2026-09-23T06:38:47.536Z  
+**Runtime:** 4 ms (beats 6.74%)  
+**Memory:** 9.4 MB (beats 6.21%)  
+**Submitted:** 2026-09-23T06:57:04.202Z  
 
 ```c
 bool isPalindrome(char* s) {
