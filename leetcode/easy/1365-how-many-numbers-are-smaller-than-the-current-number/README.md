@@ -51,8 +51,8 @@ Output: [0,0,0,0]
 
 **Language:** C  
 **Runtime:** 11 ms (beats 57.10%)  
-**Memory:** 11.9 MB (beats 97.25%)  
-**Submitted:** 2026-09-30T07:04:28.756Z  
+**Memory:** 12 MB (beats 80.16%)  
+**Submitted:** 2026-09-30T07:05:08.034Z  
 
 ```c
 /**
